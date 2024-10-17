@@ -1,0 +1,138 @@
+@font-face {
+    font-family: vulgarp;
+    src: url("Blacklisted.ttf");
+}
+body {
+    margin: 0;
+    font-family: '', sans-serif;
+    background-color: #000; /* Fondo negro */
+    color: #ffbf00; ; /* Color del texto amarillo */
+    text-align: center; /* Centrar texto en todo el cuerpo */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+header {
+    background-color: #222; /* Fondo de encabezado */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(255, 215, 0, 0.5); /* Sombra dorada */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centrar menú de navegación */
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFD700; /* Color amarillo */
+    font-weight: bold; /* Texto en negrita */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.welcome, .menu, .gallery, #redes {
+    margin: 20px 0;
+    background-color: rgba(255, 215, 0, 0.1); /* Fondo amarillo claro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra de caja */
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center; /* Centrar botones sociales */
+    gap: 20px;
+}
+
+.social-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-button.instagram {
+    background-color: #C13584; /* Color de Instagram */
+}
+
+.social-button.tiktok {
+    background-color: #000000; /* Color de TikTok */
+}
+
+.social-button.whatsapp {
+    background-color: #25D366; /* Color de WhatsApp */
+}
+
+.social-button:hover {
+    opacity: 0.8; /* Efecto hover */
+}
+
+footer {
+    background-color: #000; /* Fondo negro */
+    color: #ffd900; /* Texto amarillo */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.gallery-image {
+    width: 30%; /* Ajusta el tamaño de las imágenes de la galería */
+    margin: 10px;
+}
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
